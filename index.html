@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/logo.png" type="image/png">
+	<title>Abdulkhaliq | Web Developer</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Icons & Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+	<!-- Main Css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/chatbot-x.css">
+
+	<style>
+		* {
+			user-select: none;
+			-webkit-user-select: none;
+			-webkit-user-drag: none;
+			-moz-window-dragging: none;
+			user-zoom: none;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		::-webkit-scrollbar {
+			width: 16px;
+			/* width: 0; */
+			background-color: #fff;
+		}
+
+		::-webkit-scrollbar-thumb {
+			border-radius: 30px;
+			background-color: gray;
+			border: 4px solid #fff;
+		}
+
+		.just-none {
+			position: relative;
+			top: -100px;
+			width: 0;
+			height: 0;
+			opacity: 0;
+			pointer-events: none;
+		}
+
+		.banner_inner {
+			content: "";
+			z-index: 10 !important;
+			background-color: #fff;
+		}
+
+		.text-very-big {
+			font-size: 100px;
+		}
+
+		.user-img {
+			width: 100% !important; 
+			height: auto !important;
+			margin: 0 auto;
+			position: relative;
+			top: 50%;
+			/* scale: 1.2; */
+			transform: translateY(-50%);	
+		}
+
+		/* .owl-carousel {
+			align-items: unset !important;
+		} */
+
+		/* .text-very-small {
+			font-size: 40px;
+		} */
+	</style>
+
+</head>
+
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+							<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+							<!-- <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li> -->
+							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+	<!--================ Start Home Banner Area =================-->
+	<section class="home_banner_area" id="home">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="banner_content">
+							<h3 class="text-uppercase">Hello</h3>
+							<h1 class="text-uppercase"><span class="text-very-big">I am</span> <span class="text-very-small"></span></h1>
+							<h5 class="text-uppercase">senior web developer</h5>
+							<div class="d-flex align-items-center">
+								<a class="primary_btn" href="#"><span>Hire Me</span></a>
+								<!-- <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="home_right_img">
+							<img class="" src="img/banner/home-right.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Home Banner Area =================-->
+
+	<!--================ Start About Us Area =================-->
+	<section class="about_area section_gap">
+		<div class="just-none" id="about"></div>
+		<div class="container">
+			<div class="row justify-content-start align-items-center">
+				<div class="col-lg-5">
+					<div class="about_img">
+						<img class="" src="img/about-us.png" alt="">
+					</div>
+				</div>
+
+				<div class="offset-lg-1 col-lg-5">
+					<div class="main_title text-left">
+						<h2>let’s <br>
+							Introduce about <br>
+							myself</h2>
+						<p>
+							My name is Abdulkhaliq. I am 16 years old. I am a senior web developer. I have been working in web programming since 2 years. During this time, I organized a lot of things, and the most important thing is that I did not stop!
+						</p>
+						<p>
+							I learned web programming based on 4 rules: 
+							<span style="padding: 4px 20px; display: block;">
+								1. Discipline
+							</span>
+							<span style="padding: 4px 20px; display: block;">
+								2. Analysis (An easy way out of the situation)
+							</span>
+							<span style="padding: 4px 20px; display: block;">
+								3. Be patient
+							</span>
+							<span style="padding: 4px 20px; display: block;">
+								4. Don't give in to stress
+							</span>
+						</p>
+						<p>
+							Based on these rules, I became a senior developer
+							<br>
+							There is only one rule in life, if you follow it, you can become a perfect person: 
+							<br>
+							<span style="padding: 4px 20px; display: block;">
+								" In a world where you can be anyone, be yourself ! "
+							</span>
+						</p>
+						<a class="primary_btn" href="#"><span>Get Quote</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End About Us Area =================-->
+
+	<!--================ Start Features Area =================-->
+	<section class="features_area">
+		<div class="just-none" id="skills"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>service offers </h2>
+						<h3>WORK EXPERIENCE</h3>
+					</div>
+				</div>
+			</div>
+				<div class="container-fluid py-5" id="skill">
+					<div class="container">
+						<div class="position-relative d-flex align-items-center justify-content-center" style="scale: 1; transform: translateY(-65px);">
+							<h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+							<h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-md-6">
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">HTML</h6>
+										<h6 class="font-weight-bold">95%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-primary" style="width: 95%; height: 100%" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">CSS</h6>
+										<h6 class="font-weight-bold">85%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-warning" style="width: 85%; height: 100%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">Bootstrap</h6>
+										<h6 class="font-weight-bold">100%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-danger" style="width: 100%; height: 100%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">Javascript</h6>
+										<h6 class="font-weight-bold">80%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-danger" style="width: 80%; height: 100%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">Terminal & Git</h6>
+										<h6 class="font-weight-bold">90%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-dark" style="width: 90%; height: 100%" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill mb-4">
+									<div class="d-flex justify-content-between">
+										<h6 class="font-weight-bold">SCSS</h6>
+										<h6 class="font-weight-bold">80%</h6>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bg-info" style="width: 80%; height: 100%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	<!--================ End Features Area =================-->
+
+	<!--================Start Portfolio Area =================-->
+	<section class="portfolio_area" id="portfolio">
+		<div class="just-none" id="projects"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title text-left">
+						<h2>quality works <br>
+							Recently done project </h2>
+					</div>
+				</div>
+			</div>
+			<div class="filters portfolio-filter">
+				<ul>
+					<li class="active" data-filter="*">all</li>
+					<li data-filter=".popular">popular</li>
+					<li data-filter=".latest"> latest</li>
+					<li data-filter=".following">following</li>
+					<li data-filter=".upcoming">upcoming</li>
+				</ul>
+			</div>
+	
+			<div class="filters-content">
+				<div class="row portfolio-grid justify-content-center">
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/translator.webp" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/translator.webp" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Translator app, portfolio</a></h4>
+								<p>Translator, Minimal design</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/chatgpt.webp" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/chatgpt.webp" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">ChatGPT AI</a></h4>
+								<p>Artificial Intelligence Chat App</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/telegram.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/telegram.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Telegram</a></h4>
+								<p>Telegram Web Demo App</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/movies.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/movies.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Movies App</a></h4>
+								<p>Watch trailers, About and more</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/music.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/music.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Music Player</a></h4>
+								<p>Web Application, play music</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/google.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/google.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Google Search</a></h4>
+								<p>3D Web Application</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/gambling.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/gambling.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">GAMBLING APP</a></h4>
+								<p>Spin Wheel Gambling App</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/shop.webp" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/shop.webp" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Shop App</h4>
+								<p>Shopping App, Buy and sell</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/trading.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/trading.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="#">Trading Portfolio</a></h4>
+								<p>Trading Big Portfolio, Analystics, Charts</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Portfolio Area =================-->
+
+	<!--================ Start Testimonial Area =================-->
+	<div class="testimonial_area section_gap_bottom">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>client say about me</h2>
+						<h3>MY CLIENTS</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="testi_slider owl-carousel">
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Chingiz G'affarov</h4>
+									<p>Among my students, he is the youngest and has many years of experience. I wish you luck </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Bobur Shams Sadat</h4>
+									<p>Dear friend, I wish you luck in this journey. The projects you create are so amazing and priceless </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Ahmad Nawid Naziri</h4>
+									<p>Congratulations! I'm glad to have a friend who is experienced and perfect in programming like you. </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Alibekh Sherzodovich</h4>
+									<p>Dear friend, I also dream of becoming a programmer, you helped me a lot and I will never forget it! </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>CHAT GPT AI</h4>
+									<p>Very good, but you have spelling bugs, I give you a 10/9! This is very good for your level, I hope you will be a professional programmer soon</p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<!-- <div class="col-lg-4">
+        						<img class="user-img" src="img/testimonials/user.png" alt="user image">
+        					</div> -->
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>KUKI AI</h4>
+									<p>I am glad to have a listener like you. Wishing you to achieve all your intentions, I wish you a lot of perseverance and patience on this path! </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!--================ End Testimonial Area =================-->
+
+	<!--================ Start Banner Area =================-->
+	<section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+				<div class="banner_content text-center">
+					<h2>Contact Us</h2>
+					<div class="page_link">
+						<a href="index.html">Home</a>
+						<a href="contact.html">Contact</a>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+    <!--================ End Banner Area =================-->
+    
+    <!--================ Start Contact Area =================-->
+    <section class="contact_area section_gap">
+		<div class="just-none" id="contact"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>Termiz, Uzbekistan</h6>
+                            <p>IT Park</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6><a href="#">91 972 27 09</a></h6>
+                            <p>Mon to Fri 9am to 6 pm</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6><a href="#">nikotin100k@gmail.com</a></h6>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" action="" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="primary_btn">
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="mapBox" class="mapBox">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6352.476834496923!2d67.31127424232787!3d37.242050400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f35332331c8749f%3A0xc1fec89038a635f8!2sMovaro!5e0!3m2!1suz!2s!4v1700505154446!5m2!1suz!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--================ End Contact Area =================-->
+
+
+	<!--================Footer Area =================-->
+	<section class="footer_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="#">
+								<img src="img/logo.png" alt="">
+							</a>
+							<h4>Follow Me</h4>
+						</div>
+						<div class="footer_social">
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+							<a href="#"><i class="fa-brands fa-youtube"></i></a>
+							<!-- <a href="#"><i class="fa fa-behance"></i></a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website developed by <a href="https://t.me/endless_storm" target="_blank">Abdulkhaliq</a></p>
+			</div>
+		</div>
+	</section>
+	<!--================End Footer Area =================-->
+
+	<!--================ChatBot Area =================-->
+	<button class="chatbot-toggler">
+		<span class="material-symbols-rounded">mode_comment</span>
+		<span class="material-symbols-outlined">close</span>
+	</button>
+	<div class="chatbot">
+		<header>
+		  <h2>Chatbot</h2>
+		  <span class="close-btn material-symbols-outlined">close</span>
+		</header>
+		<ul class="chatbox">
+		  <li class="chat incoming">
+			<span class="material-symbols-outlined">smart_toy</span>
+			<p>Hi there 👋<br>How can I help you today?</p>
+		  </li>
+		</ul>
+		<div class="chat-input">
+		  <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+		  <span id="send-btn" class="material-symbols-rounded">send</span>
+		</div>
+	</div>
+	<!--================ChatBot Area =================-->
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/theme.js"></script>
+	<!-- X Js-->
+	<script src="js/chatbot-x.js"></script>
+	<!-- <script src="js/private-script-x.js"></script> -->
+</body>
+
+</html>
